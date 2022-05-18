@@ -1,0 +1,39 @@
+name: q10
+description: buyAndSell
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.1.0
+  geolocator: ^7.7.0
+  provider: ^6.0.1
+  http: ^0.13.4
+  lottie: ^1.2.1
+  firebase_core: ^1.9.0
+  google_sign_in: ^5.2.1
+  font_awesome_flutter: ^9.2.0
+  firebase_auth: ^3.1.5
+  flutter_facebook_auth: ^3.5.6
+  image: ^3.0.8
+  path_provider: ^2.0.6
+
+dev_dependencies:
+  animated_splash_screen: ^1.1.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/icons/
+     - assets/
